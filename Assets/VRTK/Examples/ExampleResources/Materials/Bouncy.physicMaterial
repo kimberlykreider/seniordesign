@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!134 &13400000
@@ -11,3 +12,18 @@ PhysicMaterial:
   bounciness: 1
   frictionCombine: 0
   bounceCombine: 0
+=======
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!134 &13400000
+PhysicMaterial:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bouncy
+  dynamicFriction: 0.1
+  staticFriction: 0.2
+  bounciness: 1
+  frictionCombine: 0
+  bounceCombine: 0
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

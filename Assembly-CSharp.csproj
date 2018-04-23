@@ -6,7 +6,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
     <ProjectGuid>{C5C68927-8D56-22F7-805D-23B0DD7C3709}</ProjectGuid>
+=======
+    <ProjectGuid>{43CCA62E-09EF-B1AC-CF3B-E6833E081113}</ProjectGuid>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,7 +62,10 @@
      <Compile Include="Assets\EscapeRoom\Scripts\Puzzle.cs" />
      <Compile Include="Assets\EscapeRoom\Scripts\RevealBlacklight.cs" />
      <Compile Include="Assets\Keypad.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Lightbulb.cs" />
+=======
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -524,6 +531,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
+<<<<<<< HEAD
  <HintPath>/Users/Bernadette/Documents/seniordesign/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
@@ -537,11 +545,30 @@
  </Reference>
  <Reference Include="Poly2Tri">
  <HintPath>/Users/Bernadette/Documents/seniordesign/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+=======
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="KdTreeLib">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+<<<<<<< HEAD
       <Project>{8C9348B1-9348-11DE-C027-CBFE2DB36EEC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+=======
+      <Project>{633860E4-E8AB-C6CD-6C63-81BAFEE558C6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

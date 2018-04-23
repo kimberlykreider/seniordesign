@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //
 // Purpose: Helper to update poses when using native OpenVR integration.
@@ -16,3 +17,23 @@ public class SteamVR_UpdatePoses : MonoBehaviour
 	}
 }
 
+=======
+﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
+//
+// Purpose: Helper to update poses when using native OpenVR integration.
+//
+//=============================================================================
+
+using UnityEngine;
+
+[ExecuteInEditMode]
+public class SteamVR_UpdatePoses : MonoBehaviour
+{
+	void Awake()
+	{
+		Debug.Log("SteamVR_UpdatePoses has been deprecated - REMOVING");
+		DestroyImmediate(this);
+	}
+}
+
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

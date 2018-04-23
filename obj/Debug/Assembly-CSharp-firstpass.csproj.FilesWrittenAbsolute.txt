@@ -25,6 +25,7 @@
 /Users/Bernadette/Documents/vrtestOld/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Bernadette/Documents/vrtestOld/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Bernadette/Documents/vrtestOld/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+<<<<<<< HEAD
 /Users/Bernadette/Documents/seniordesign/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
 /Users/Bernadette/Documents/seniordesign/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
 /Users/Bernadette/Documents/seniordesign/obj/Debug/Assembly-CSharp-firstpass.dll
@@ -52,3 +53,5 @@
 /Users/Bernadette/Documents/seniordesign/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Bernadette/Documents/seniordesign/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Bernadette/Documents/seniordesign/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+=======
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

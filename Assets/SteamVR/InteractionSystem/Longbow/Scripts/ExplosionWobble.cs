@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //
 // Purpose: Makes the weeble wobble
@@ -23,3 +24,30 @@ namespace Valve.VR.InteractionSystem
 		}
 	}
 }
+=======
+﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
+//
+// Purpose: Makes the weeble wobble
+//
+//=============================================================================
+
+using UnityEngine;
+using System.Collections;
+
+namespace Valve.VR.InteractionSystem
+{
+	//-------------------------------------------------------------------------
+	public class ExplosionWobble : MonoBehaviour
+	{
+		//-------------------------------------------------
+		public void ExplosionEvent( Vector3 explosionPos )
+		{
+			var rb = GetComponent<Rigidbody>();
+			if ( rb )
+			{
+				rb.AddExplosionForce( 2000, explosionPos, 10.0f );
+			}
+		}
+	}
+}
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

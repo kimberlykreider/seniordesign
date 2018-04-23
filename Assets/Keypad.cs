@@ -28,7 +28,11 @@ public class Keypad : MonoBehaviour {
 
 	void Update()
 	{
+<<<<<<< HEAD
 		if(input == curPassword && !puzzle.completed)
+=======
+		if(input == curPassword)
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
 		{
 			puzzle.Completed ();
 		}

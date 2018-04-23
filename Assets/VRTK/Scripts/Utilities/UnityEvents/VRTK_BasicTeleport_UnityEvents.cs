@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿namespace VRTK.UnityEventHelper
 {
     using UnityEngine;
@@ -35,4 +36,43 @@
             OnTeleported.Invoke(o, e);
         }
     }
+=======
+﻿namespace VRTK.UnityEventHelper
+{
+    using UnityEngine;
+    using UnityEngine.Events;
+    using System;
+
+    [AddComponentMenu("VRTK/Scripts/Utilities/Unity Events/VRTK_BasicTeleport_UnityEvents")]
+    public sealed class VRTK_BasicTeleport_UnityEvents : VRTK_UnityEvents<VRTK_BasicTeleport>
+    {
+        [Serializable]
+        public sealed class TeleportEvent : UnityEvent<object, DestinationMarkerEventArgs> { }
+
+        public TeleportEvent OnTeleporting = new TeleportEvent();
+        public TeleportEvent OnTeleported = new TeleportEvent();
+
+        protected override void AddListeners(VRTK_BasicTeleport component)
+        {
+            component.Teleporting += Teleporting;
+            component.Teleported += Teleported;
+        }
+
+        protected override void RemoveListeners(VRTK_BasicTeleport component)
+        {
+            component.Teleporting -= Teleporting;
+            component.Teleported -= Teleported;
+        }
+
+        private void Teleporting(object o, DestinationMarkerEventArgs e)
+        {
+            OnTeleporting.Invoke(o, e);
+        }
+
+        private void Teleported(object o, DestinationMarkerEventArgs e)
+        {
+            OnTeleported.Invoke(o, e);
+        }
+    }
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
 }

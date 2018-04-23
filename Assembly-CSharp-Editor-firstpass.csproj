@@ -6,7 +6,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
     <ProjectGuid>{79EEFFD7-36F9-FA67-DA9E-5056C1519310}</ProjectGuid>
+=======
+    <ProjectGuid>{11AD9E6A-2241-2512-0ABB-00E6DECE1815}</ProjectGuid>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -180,6 +184,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
+<<<<<<< HEAD
  <HintPath>/Users/Bernadette/Documents/seniordesign/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
@@ -196,11 +201,33 @@
  </Reference>
  <Reference Include="ProBuilderEditor-Unity5">
  <HintPath>/Users/Bernadette/Documents/seniordesign/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+=======
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="KdTreeLib">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderEditor-Unity5">
+ <HintPath>/Users/Bernadette/Documents/vrtestOld/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+<<<<<<< HEAD
       <Project>{8C9348B1-9348-11DE-C027-CBFE2DB36EEC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+=======
+      <Project>{633860E4-E8AB-C6CD-6C63-81BAFEE558C6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

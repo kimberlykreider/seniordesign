@@ -1,54 +1,41 @@
 fileFormatVersion: 2
 guid: 0e96081d793e1994086123e2505bcc0e
-timeCreated: 1447096547
-licenseType: Store
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: jump_scenes_arrow_icon
-    100002: local_move_arrow_icon
-    100004: locked_icon
-    100006: //RootNode
-    100008: teleport_marker_icons
-    100010: teleport_marker_lookat_joint
-    100012: teleport_marker_mesh
-    100014: move_location_icon
-    100016: switch_scenes_icon
-    400000: jump_scenes_arrow_icon
-    400002: local_move_arrow_icon
-    400004: locked_icon
-    400006: //RootNode
-    400008: teleport_marker_icons
-    400010: teleport_marker_lookat_joint
-    400012: teleport_marker_mesh
-    400014: move_location_icon
-    400016: switch_scenes_icon
-    2300000: jump_scenes_arrow_icon
-    2300002: local_move_arrow_icon
-    2300004: locked_icon
+    100000: locked_icon
+    100002: move_location_icon
+    100004: switch_scenes_icon
+    100006: teleport_marker_icons
+    100008: teleport_marker_lookat_joint
+    100010: teleport_marker_mesh
+    100012: //RootNode
+    400000: locked_icon
+    400002: move_location_icon
+    400004: switch_scenes_icon
+    400006: teleport_marker_icons
+    400008: teleport_marker_lookat_joint
+    400010: teleport_marker_mesh
+    400012: //RootNode
+    2300000: locked_icon
+    2300002: move_location_icon
+    2300004: switch_scenes_icon
     2300006: teleport_marker_mesh
-    2300008: move_location_icon
-    2300010: switch_scenes_icon
-    3300000: jump_scenes_arrow_icon
-    3300002: local_move_arrow_icon
-    3300004: locked_icon
+    3300000: locked_icon
+    3300002: move_location_icon
+    3300004: switch_scenes_icon
     3300006: teleport_marker_mesh
-    3300008: move_location_icon
-    3300010: switch_scenes_icon
     4300000: teleport_marker_mesh
-    4300002: jump_scenes_arrow_icon
-    4300004: local_move_arrow_icon
+    4300002: switch_scenes_icon
+    4300004: move_location_icon
     4300006: locked_icon
-    4300008: switch_scenes_icon
-    4300010: move_location_icon
     7400000: switch_scenes_idle
     7400002: move_location_idle
     7400004: locked_idle
     9500000: //RootNode
-    11100000: //RootNode
   materials:
-    importMaterials: 0
-    materialName: 1
+    importMaterials: 1
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -56,6 +43,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -64,7 +53,7 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 2
+    animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
@@ -196,10 +185,10 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 0
+    importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -214,10 +203,11 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
+    tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -228,9 +218,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

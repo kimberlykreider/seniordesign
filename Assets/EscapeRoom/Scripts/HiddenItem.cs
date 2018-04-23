@@ -35,9 +35,17 @@ public class HiddenItem : Challenge
 				// whatever tag you are looking for on your game object
 				if (open && hit.collider.tag == "Trigger") {
 					print ("here");
+<<<<<<< HEAD
 					this.Completed ();
 				}
 				if(hit.collider.tag == "Trigger") {
+=======
+					Completed ();
+					completedLight.enabled = true;
+				}
+				if(hit.collider.tag == "Trigger") {
+					Debug.Log("---> Hit: ");
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d
 					OpenDoor ();
 				}
 			}    

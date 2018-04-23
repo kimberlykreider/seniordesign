@@ -2,3 +2,12 @@ sceneSetups:
 - path: Assets/starter_scene.unity
   isLoaded: 1
   isActive: 1
+<<<<<<< HEAD
+=======
+- path: Assets/testing.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/FreeFurnitureSet/scenes/demo.unity
+  isLoaded: 0
+  isActive: 0
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

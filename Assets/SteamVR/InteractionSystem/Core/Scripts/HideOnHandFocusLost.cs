@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //
 // Purpose: Sets this GameObject as inactive when it loses focus from the hand
@@ -19,3 +20,26 @@ namespace Valve.VR.InteractionSystem
 		}
 	}
 }
+=======
+﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
+//
+// Purpose: Sets this GameObject as inactive when it loses focus from the hand
+//
+//=============================================================================
+
+using UnityEngine;
+using System.Collections;
+
+namespace Valve.VR.InteractionSystem
+{
+	//-------------------------------------------------------------------------
+	public class HideOnHandFocusLost : MonoBehaviour
+	{
+		//-------------------------------------------------
+		private void OnHandFocusLost( Hand hand )
+		{
+			gameObject.SetActive( false );
+		}
+	}
+}
+>>>>>>> 55a10351f611f5493cf6f67f6cf76a4844defc4d

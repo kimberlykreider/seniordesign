@@ -1,31 +1,17 @@
 fileFormatVersion: 2
 guid: e61c6399d5478fc4bbfbdb7ccc35cca1
-timeCreated: 1430956377
-licenseType: Store
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Camera
-    100002: Directional Light
-    100004: Mesh
-    100006: //RootNode
-    100008: Texture Group
-    400000: Camera
-    400002: Directional Light
-    400004: Mesh
-    400006: //RootNode
-    400008: Texture Group
-    2300000: Mesh
-    2300002: //RootNode
-    3300000: Mesh
-    3300002: //RootNode
-    4300000: Mesh
-    4300002: TeleportDestination_Mesh
-    7400000: Take 001
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: TeleportDestination_Mesh
     9500000: //RootNode
   materials:
-    importMaterials: 0
-    materialName: 1
+    importMaterials: 1
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -33,6 +19,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -47,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -65,10 +53,11 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-  importAnimation: 0
+    tangentImportMode: 3
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -79,9 +68,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
